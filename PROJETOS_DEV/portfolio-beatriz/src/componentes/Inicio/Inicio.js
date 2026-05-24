@@ -23,7 +23,7 @@ function Inicio(){
 
             <div className="inicio-imagem">
                 <div className="circulo">
-                    <img src='/bia_farias.jpeg' />
+                    <img src="/bia_farias.jpeg" alt="Beatriz" />
                 </div>
 
             </div>

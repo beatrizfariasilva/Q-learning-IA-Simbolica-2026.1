@@ -4,7 +4,7 @@ import Sobre from './componentes/Sobre/Sobre';
 import ExpAcademica from './componentes/ExpAcademica/ExpAcademica';
 import ExpProfissional from './componentes/ExpProfissional/ExpProfissional';
 import Projetos from './componentes/Projetos/Projetos';
-import {BrowserRouter, Router, Routes, Route, Link} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import './index.css'
 
