@@ -1,0 +1,65 @@
+.sobre {
+    min-height: 100vh;
+    padding: 120px 8%;
+    background-color: #faf9f6; 
+}
+
+.sobre h2 {
+    font-size: 5rem;
+    color: #d6d29c;
+    margin-top: -95px;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.sobre-texto {
+    max-width: 680px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 60px;
+}
+
+.sobre-texto strong {
+    color: #111;
+    font-weight: 600;
+}
+
+.competencias-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 800px;
+}
+
+.categoria-skills h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.tecnologias p {
+    padding: 8px 18px;
+    border: 1px solid #ddd; 
+    border-radius: 50px;
+    font-size: 0.9rem;
+    color: #444;
+    background: white;
+    cursor: default;
+    transition: all 0.25s ease;
+}
+
+.tecnologias p:hover {
+    border-color: #111;
+    background-color: #111;
+    color: white;
+    transform: translateY(-2px);
+}
