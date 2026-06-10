@@ -9,7 +9,7 @@ q_table = np.loadtxt(r'C:\Users\beatr\Desktop\PROJETO Q-LEARNING\Qlearning-main\
 #parâmetros
 epsilon=float(np.loadtxt(r'C:\Users\beatr\Desktop\PROJETO Q-LEARNING\Qlearning-main\progresso_epsilon.txt'))
 alpha=0.2
-gamma=0.9
+gamma=0.9 
 epsilon_min=0.05
 decay_rate=0.999999
 
