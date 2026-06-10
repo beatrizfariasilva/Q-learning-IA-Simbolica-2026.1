@@ -4,14 +4,13 @@ import numpy as np
 
 s=cn.connect(2037)
 q_table = np.loadtxt(r'C:\Users\beatr\Desktop\PROJETO Q-LEARNING\Qlearning-main\resultado.txt')
-epsilon=0
-alpha=0
-gamma=0.9
-epsilon_min = 0.05
-decay_rate=1.0
+
 
 estado_string, recompensa=cn.get_state_reward(s, "left")
-estado_atual = int(estado_string, 2)
+if estado_string.startswith("0b"):
+    estado_string = estado_string[2:]
+
+estado_atual=int(estado_string, 2)
 num_episodios=1
 
 for episodio in range(num_episodios):
